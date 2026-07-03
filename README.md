@@ -4,24 +4,36 @@ This repository contains code snippets, notebooks, and exercises for various AI 
 
 ## 📚 Available Courses
 
+### AI Engineering Bootcamp v2
+Build typed LLM APIs with FastAPI, OpenAI structured output, guardrails, and cost visibility.
+
+- **Location:** `ai-engineering-bootcamp-v2/`
+- **Status:** Week 1 available
+- **Get Started:** See [ai-engineering-bootcamp-v2/README.md](ai-engineering-bootcamp-v2/README.md)
+
 ### Multi-Agent Systems
 Learn to build production-ready multi-agent systems using LangGraph.
 
 - **Location:** `multi-agent-systems/`
-- **Status:** Week 1 available, Weeks 2-4 coming soon
+- **Status:** Weeks 1–4 available
 - **Get Started:** See [multi-agent-systems/README.md](multi-agent-systems/README.md)
+
+### AI Engineering Bootcamp (v1)
+Earlier bootcamp modules — RAG, ADK/LangGraph agents, eval monitoring, and more.
+
+- **Location:** `ai-engineering-bootcamp/`
 
 ## 🗂️ Repository Structure
 
 ```
 AI-Internship/
-├── README.md                    # This file
-├── multi-agent-systems/        # Multi-Agent Systems course
-│   ├── week-1/                 # LangGraph Foundations
-│   ├── week-2/                 # Single-Agent Mastery (Coming Soon)
-│   ├── week-3/                 # Multi-Agent Orchestration (Coming Soon)
-│   └── week-4/                 # Production & Capstone (Coming Soon)
-└── [future courses]            # Additional courses will be added here
+├── README.md                         # This file
+├── ai-engineering-bootcamp-v2/       # AI Engineering Bootcamp v2
+│   └── week-1/                       # FastAPI /ask demo (5 stages)
+├── ai-engineering-bootcamp/          # AI Engineering Bootcamp v1 modules
+├── multi-agent-systems/              # Multi-Agent Systems course
+│   ├── week-1/ … week-4/
+└── LangFuse/                         # Observability examples
 ```
 
 ## 🚀 Quick Start

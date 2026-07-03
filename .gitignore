@@ -1,0 +1,33 @@
+# Secrets — never commit API keys or local credentials
+.env
+.env.local
+*.pem
+secrets.toml
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+.cursor/
+
+# Local scratch (not part of the course repo)
+ai-eng-demo-1/

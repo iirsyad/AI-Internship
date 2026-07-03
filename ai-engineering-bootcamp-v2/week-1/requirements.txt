@@ -1,3 +1,5 @@
 fastapi[standard]
+httpx
 openai
 python-dotenv
+streamlit
